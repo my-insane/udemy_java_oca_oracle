@@ -1,7 +1,7 @@
 package Lesson17;
 
 public class EqualsOfStringBuilder {
-    boolean ravenstvo(StringBuilder sb1, StringBuilder sb2) {
+    boolean equals(StringBuilder sb1, StringBuilder sb2) {
         boolean equal;
         String s1 = new String(sb1);
         String s2 = new String(sb2);
@@ -17,7 +17,7 @@ class EqualsOfStringBuilderTest {
         StringBuilder sb2 = new StringBuilder("Dobriy Vecher");
         StringBuilder sb3 = new StringBuilder("Nedobriy Vecher");
 
-        System.out.println(e.ravenstvo(sb1, sb2));
-        System.out.println(e.ravenstvo(sb1, sb3));
+        System.out.println(e.equals(sb1, sb2));
+        System.out.println(e.equals(sb1, sb3));
     }
 }
